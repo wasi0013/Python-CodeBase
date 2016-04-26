@@ -1,0 +1,9 @@
+a=int(input())
+while(a>0):
+    fact=1
+    a-=1
+    b=int(input())
+    while(b>0):
+        fact*=b
+        b-=1
+    print(fact)

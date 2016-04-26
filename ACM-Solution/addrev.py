@@ -1,0 +1,9 @@
+c=int(input())
+while(c>0):
+    c-=1
+    a,b=input().split()
+    d=a[::-1]
+    e=b[::-1]
+    f=str(int(d)+int(e))
+    f=f.strip("0")
+    print(f[::-1])
